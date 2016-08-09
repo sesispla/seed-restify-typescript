@@ -1,0 +1,29 @@
+{
+  "name": "msvc-restify",
+  "version": "1.0.0",
+  "description": "A restify example",
+  "main": "./build/api.js",
+  "scripts": {    
+    "start": "node ./build/api.js",    
+    "test": "mocha ./build/**/*.spec.js",
+    "build": "gulp build",
+    "restore": "npm install && typings install"
+  },
+  "author": "ssistern",
+  "license": "The MIT License (MIT)",
+  "dependencies": {
+    "restify": "^4.1.1"
+  },
+  "devDependencies": {
+    "bunyan": "^1.8.1",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.6",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  }
+}
