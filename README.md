@@ -10,12 +10,19 @@ What you get:
 * Test runner: mocha
 * Asserts: chai
 * Mocking: sinon
+* Docker ready project
 
-Getting started:
+#H2 Getting started:
 
 ```
 npm run restore
 npm run build
 npm test
 npm start
+```
+
+#H2 Deploy to Docker:
+```
+docker build -t=sesispla/ping-svc .
+docker run -d -p 8080:3000 sesispla/ping-svc
 ```
