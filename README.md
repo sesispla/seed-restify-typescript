@@ -1,4 +1,4 @@
-#H1 Micro(Rest)service seed project
+# Micro(Rest)service seed project
 
 A Restify template seed project, using Typescript.
 
@@ -12,7 +12,7 @@ What you get:
 * Mocking: sinon
 * Docker ready project
 
-#H2 Getting started:
+## Getting started:
 
 ```
 npm run restore
@@ -21,7 +21,7 @@ npm test
 npm start
 ```
 
-#H2 Deploy to Docker:
+## Deploy to Docker:
 ```
 docker build -t=sesispla/ping-svc .
 docker run -d -p 8080:3000 sesispla/ping-svc
